@@ -12,7 +12,8 @@
       "minimum-stability": "dev",
       "autoload": {
         "classmap": [
-          "lib/", "view/"
-        ]
+          "view/"
+        ],
+        "files": ["ini.php"]
       }
 }
