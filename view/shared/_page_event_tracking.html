@@ -1,0 +1,5 @@
+<?if($cms_content->track_as_event_in_analytics):?>
+<script type="text/javascript">
+_gaq.push(['_trackEvent', 'CMS_EVENT', '<?=urlencode($cms_content->analytics_event_action)?>', '<?=urlencode($cms_content->analytics_event_label)?>']);
+</script>
+<?endif?>
