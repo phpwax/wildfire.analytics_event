@@ -2,7 +2,6 @@
 AutoLoader::register_view_path("plugin", __DIR__."/view/");
 AutoLoader::$plugin_array[] = array("name"=>"wildfire.analytics_event","dir"=>__DIR__);
 
-echo CONTENT_MODEL;exit;
 if(defined("CONTENT_MODEL")){
 
   WaxEvent::add(CONTENT_MODEL.".setup", function(){
