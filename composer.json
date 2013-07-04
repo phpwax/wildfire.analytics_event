@@ -1,5 +1,7 @@
 {
     "name": "phpwax/wildfire.analytics_event",
+    "description": "Plugin for analytics",
+    "license": "MIT",
     "authors": [
         {
             "name": "Charles Marshall",
